@@ -1,0 +1,49 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700|Ranga:400,700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  
+  <div class="parent">
+    <h2 >Zip Code</h2>
+    <div class="box ">
+      
+      <input id="zipCode" type="text" placeholder="Enter The Zip Code Here">
+    </div>
+    <h2>Tell us your feelings</h2>
+  </div>
+  <div class="parent ">
+    
+    <div class="box">
+      <textarea  name="" id="feelings" placeholder="Enter your feelings here" ></textarea>
+    </div>
+    <div class="box">
+      <p style="font-size: 20px; padding: 10px;">
+        An Api to get the temperature in your city by entring the ZIP code of your city
+      </p>
+      <button id="generate">
+        Generate
+      </button>
+    </div>
+  </div>
+  <div class="parent">
+    <div id="result" class="box">
+        <h2>Most Recent Entry </h2>
+        <h4 id="date">Date: </h4>
+        <h4 id="temp">Temperature: </h4>
+        <h4 id="feel">Feelings: </h4>
+    </div>
+  </div>
+  <script src="myJs.js" type="text/javascript"></script>
+  <script src="app.js" type="text/javascript"></script>
+
+</body>
+
+</html>
