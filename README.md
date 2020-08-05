@@ -7,4 +7,4 @@ In this project requires you to create an asynchronous web app that uses Web API
 ## Used Technologies
 1. Javascript
 2. Node js
-3. openweathermap [https://home.openweathermap.org/] API
+3. [openweathermap](https://home.openweathermap.org/) API
